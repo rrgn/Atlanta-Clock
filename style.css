@@ -1,0 +1,81 @@
+
+#clock{
+  width: auto;
+  height: auto;
+  position: absolute;;
+  top: 30%;
+  left: 18%;
+  color: #D83400;
+  font-size: 170px;
+  padding-right: 10px;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+#ToDo {
+  font-size: 30px;
+  width: 15%;
+  height: 90%;
+  text-align: left;
+  color: #D83400;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-image: url("Chalkboard-background.jpg");
+  padding-left: 15px;
+
+
+}
+img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+  }
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #000;
+  font-family: Arial;
+  background-image: url("AtlantaBG2015.jpg");
+}
+
+#main{
+  width:600px;
+  background-color:#fff;
+  margin:0 auto;
+  text-align: center;
+  padding:10px 0px 10px 0px;
+}
+
+h2{
+  color:#003399;
+}
+
+h1{
+  color:#003399;
+
+}
+#result {
+  float: left;
+  width: 79%;
+  height: 21%;
+  position: absolute;
+
+
+
+}
+
+table {
+  font-size: 30px;
+  height: auto;
+  width: 15%;
+  text-align: center;
+  color: #D83400;
+  background-image: url("Chalkboard-background.jpg");
+  position: fixed;
+  left: 0;
+  border: 3px solid #D83400;
+}
+tr, th {
+  color:yellow;
+}
