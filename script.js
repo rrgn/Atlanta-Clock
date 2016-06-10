@@ -31,8 +31,9 @@ function getWeather() {
         $("#pressure1").text(data.main.temp_max);
         $("#tempMax").text(data.main.temp_max);
         $("#tempMin").text(data.main.temp_min);
-        $("#clouds").text(data.clouds);
-        console.log(data);
+        $("#clouds").text(data.clouds.all);
+      
+
          }
     });
  }

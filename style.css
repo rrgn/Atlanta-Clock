@@ -15,7 +15,7 @@
 #ToDo {
   font-size: 30px;
   width: 15%;
-  height: 90%;
+  height: 100%;
   text-align: left;
   color: #D83400;
   position: fixed;
@@ -33,6 +33,7 @@ img {
 
 body {
   width: 900px;
+  height: 100%;
   margin: 0 auto;
   background-color: #000;
   font-family: Arial;
@@ -72,9 +73,10 @@ table {
   text-align: center;
   color: #D83400;
   background-image: url("Chalkboard-background.jpg");
-  position: fixed;
+  position: absolute;
   left: 0;
   border: 3px solid #D83400;
+  overflow: auto;
 }
 tr, th {
   color:yellow;
