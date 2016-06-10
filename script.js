@@ -13,8 +13,8 @@ function startTime() {
 }
 function checkTime(i) {
   if (i < 10) {
-    i = "0" + i
-  };
+    i = "0" + i;
+  }
     return i;
 }
 
@@ -31,6 +31,8 @@ function getWeather() {
         $("#pressure1").text(data.main.temp_max);
         $("#tempMax").text(data.main.temp_max);
         $("#tempMin").text(data.main.temp_min);
+        $("#clouds").text(data.clouds);
+        console.log(data);
          }
     });
- };
+ }
